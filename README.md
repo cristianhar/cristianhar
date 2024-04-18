@@ -1,3 +1,8 @@
+<picture>
+ <source media="(prefers-color-scheme: dark)" srcset="YOUR-DARKMODE-IMAGE">
+ <source media="(prefers-color-scheme: light)" srcset="YOUR-LIGHTMODE-IMAGE">
+ <img alt="YOUR-ALT-TEXT" src="YOUR-DEFAULT-IMAGE">
+</picture>
 ###
 
 <img align="center" height="150" src="https://media1.tenor.com/m/ZNp_Ej5ab-YAAAAC/coding.gif"/>
