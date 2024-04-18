@@ -1,4 +1,4 @@
-<h2 align="left">Hi 👋! Mi nombre es Cristian Johao Arboleda ,un apasionado por el desarrollo de software en proceso.</h2>
+<h2 align="left">Hi 👋! Mi nombre es Cristian Johao Arboleda ,un apasionado por el desarrollo de software y en proceso.</h2>
 
 ###
 
