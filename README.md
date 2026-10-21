@@ -165,20 +165,34 @@ Today I apply that same discipline to digital architecture. With **5+ years of d
 
 ### 🍥 Shinobi no Yume — Naruto MMORPG Server
 
-> *Custom multiplayer server built solo, with 100+ concurrent players and a full web platform.*
+> *Lead Developer — Custom multiplayer MMORPG server supporting 100+ concurrent players with a native web-integrated UI.*
 
-- **Game Systems:** Jutsus, inventory, factions, Chunin exams, poison/weapon mechanics, fishing, missions.
-- **CEF Integration:** React + Node.js web layer fused directly into the native game environment.
+- **Core Role:** Lead Developer responsible for entire server architecture, gameplay mechanics, and technical stability.
+- **Game Systems:** Jutsus, inventory, factions, Chunin exams, poison/weapon mechanics, fishing, and missions.
+- **CEF Integration:** React + Node.js web layer fused directly into the native game environment for rich interfaces.
 - **Live Economy:** Player-to-player trading, mission rewards, and dynamic progression systems.
-- **Solo Architecture:** Designed, built, and maintained entirely by one developer with an active player community.
 
 <p>
   <img src="https://img.shields.io/badge/PAWN-F02D2D?style=flat-square&logo=cplusplus&logoColor=white"/>
   <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
   <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white"/>
-  <img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
 </p>
 
+---
+
+### 🌙 Tsukuyomi Shinden — Naruto Roleplay Server
+
+> *Founder & Creator — Heavy/Text Roleplay multiplayer server set in the Naruto universe.*
+
+- **Core Role:** Creator and primary developer; designed the roleplay rulesets, server scripts, and narrative-driven systems.
+- **Custom Mechanics:** Clan traits, chakra/jutsu progression tailored for RP, dynamic character sheet systems, and community management tools.
+- **Database & State:** Persistent data storage for inventory, character stats, and administrative auditing.
+
+<p>
+  <img src="https://img.shields.io/badge/PAWN-F02D2D?style=flat-square&logo=cplusplus&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
+</p>
 ---
 
 ### 🐾 PawFollow — Pet Management Platform
