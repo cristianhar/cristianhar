@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=26&pause=1000&color=F02D2D&center=true&vCenter=true&width=750&lines=FULL-STACK+ARCHITECT;AI+%26+VOICE+SYSTEMS+ENGINEER;TMS+%2F+ERP+%2F+RAG+INTEGRATIONS;INDUSTRIAL+ENG.+%E2%86%92+DIGITAL+BUILDER" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=26&pause=1000&color=F02D2D&center=true&vCenter=true&width=750&lines=FULL-STACK+ARCHITECT;AI+%26+VOICE+SYSTEMS+ENGINEER;HIGH-PERFORMANCE+SYSTEMS+(RUST+%2F+GO);TMS+%2F+ERP+%2F+RAG+INTEGRATIONS;INDUSTRIAL+ENG.+%E2%86%92+DIGITAL+BUILDER" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -20,16 +20,16 @@ My engineering journey started in the physical world — installing industrial e
 
 Today I apply that same discipline to digital architecture. With **5+ years of development experience** and a foundation in **Industrial Electrical Engineering**, I build software that is robust by design — not just functional, but **engineered**.
 
-> Currently building enterprise AI systems at **LYNXUS Solutions** — integrating voice pipelines, real-time transcription, TMS automation, and LLM-driven workflows.
+> Currently building enterprise AI systems and mission-critical telemetry infrastructure at **LYNXUS Solutions** — integrating voice pipelines, real-time transcription, native desktop monitoring agents in Rust, high-throughput Go ingestion APIs, TMS automation, and LLM-driven workflows.
 
 ---
 
 ### 🔭 Currently
 
-- 🔨 Building: AI voice + email automation pipelines (Azure STT · Deepgram · MCP · Playwright)
+- 🔨 Building: **Chronicle** (native Rust telemetry agent + Go/GCP cloud platform) & AI voice/email automation pipelines (Azure STT · Deepgram · MCP · Playwright)
 - 📚 Studying: Agentic AI systems, LangChain, advanced LLM orchestration
 - 🎮 Maintaining: Shinobi no Yume — Naruto MMORPG server with active player community
-- 🤝 Open to: Freelance collaborations on AI integrations, ERP/TMS systems, voice pipelines
+- 🤝 Open to: Freelance collaborations on AI integrations, ERP/TMS systems, high-performance agents, voice pipelines
 
 ---
 
@@ -37,13 +37,17 @@ Today I apply that same discipline to digital architecture. With **5+ years of d
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=react,nextjs,astro,html,css,tailwind,bootstrap&theme=dark" /><br><br>
-    <img src="https://skillicons.dev/icons?i=fastapi,nodejs,express,laravel,dotnet,py,cs&theme=dark" /><br><br>
-    <img src="https://skillicons.dev/icons?i=mssql,mysql,mongodb,docker,git,github,azure&theme=dark" />
+    <img src="https://skillicons.dev/icons?i=react,nextjs,tauri,astro,html,css,tailwind,bootstrap&theme=dark" /><br><br>
+    <img src="https://skillicons.dev/icons?i=rust,go,fastapi,nodejs,express,laravel,dotnet,py,cs&theme=dark" /><br><br>
+    <img src="https://skillicons.dev/icons?i=postgres,redis,gcp,azure,mssql,mysql,mongodb,docker,git&theme=dark" />
   </a>
 </p>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Tauri%20v2-24C8D5?style=flat-square&logo=tauri&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white"/>
   <img src="https://img.shields.io/badge/Azure%20Cognitive%20Services-0078D4?style=flat-square&logo=microsoftazure&logoColor=white"/>
   <img src="https://img.shields.io/badge/Deepgram%20STT-000000?style=flat-square&logoColor=white"/>
   <img src="https://img.shields.io/badge/MCP%20%2B%20Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white"/>
@@ -55,6 +59,46 @@ Today I apply that same discipline to digital architecture. With **5+ years of d
 ---
 
 ## 🏗️ Featured Projects
+
+---
+
+### ⏱️ Chronicle — Enterprise Workforce Intelligence & Passive Telemetry Ecosystem
+
+> *High-performance, privacy-by-design workforce analytics and passive telemetry ecosystem — featuring an ultra-light native Windows agent coupled with a high-throughput distributed cloud ingestion platform.*
+
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🖥️ Native Desktop Agent (Rust · Tauri v2)</h4>
+      <ul>
+        <li><b>Dual-Layer Telemetry Architecture:</b> Decouples Layer 1 active foreground tracking (Win32 / Microsoft UIAutomation browser Omnibox inspection) from Layer 2 background voice calls without timeline fragmentation.</li>
+        <li><b>Intelligent Audio & VoIP Engine:</b> Leverages Windows CoreAudio (WASAPI) session inspection across Teams, Cisco Jabber, Zoom, Webex, and 3CX. Implements a <code>TitleQuality</code> state machine with live hot-upgrades and floating widget suppression.</li>
+        <li><b>Anti-Idle & Anti-Spoofing:</b> Low-level mouse hooks (<code>WH_MOUSE_LL</code>) and power assertion monitors detect synthetic mouse jigglers, injected input (<code>LLMHF_INJECTED</code>), and activity evasion software.</li>
+        <li><b>Offline Resilience & Zero Data Loss:</b> Local disk queue encrypted with Windows DPAPI (<code>CryptProtectData</code>), hardware Ed25519 cryptographic authentication, and direct-to-cloud signed URL screenshot uploads.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h4>☁️ Cloud Platform & Ingestion Engine (Go · Next.js)</h4>
+      <ul>
+        <li><b>Distributed Go Microservices:</b> High-throughput stateless Ingestion API (handling device heartbeats and active policies), WebSocket-driven Management API, and asynchronous Pub/Sub Event Workers.</li>
+        <li><b>Big Data Ingestion Pipeline:</b> Event streaming via Redis Streams / GCP Pub/Sub directly into Google BigQuery for analytics, with Cloud SQL PostgreSQL 16 (<code>btree_gist</code>) for transactional operational data.</li>
+        <li><b>Real-Time Supervisor Console:</b> Next.js + Tailwind CSS management portal delivering liveboards, attendance auditing, active call monitors, and productivity analytics.</li>
+        <li><b>Shift-First Ethical Framework:</b> Telemetry captures strictly during authorized shift windows — zero keylogging, zero OCR scraping, and complete privacy compliance.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<p>
+  <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Tauri%20v2-24C8D5?style=flat-square&logo=tauri&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white"/>
+  <img src="https://img.shields.io/badge/BigQuery-669DF6?style=flat-square&logo=googlecloud&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"/>
+</p>
 
 ---
 
@@ -193,6 +237,7 @@ Today I apply that same discipline to digital architecture. With **5+ years of d
   <img src="https://img.shields.io/badge/PAWN-F02D2D?style=flat-square&logo=cplusplus&logoColor=white"/>
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
 </p>
+
 ---
 
 ### 🐾 PawFollow — Pet Management Platform
@@ -237,7 +282,7 @@ Today I apply that same discipline to digital architecture. With **5+ years of d
 ## 💬 Let's Build Something
 
 <p align="center">
-  I specialize in systems where things actually have to work — AI pipelines, enterprise integrations, real-time voice communications, and high-precision data flows. If you have a complex problem, I'm interested.
+  I specialize in systems where things actually have to work — AI pipelines, enterprise integrations, real-time voice communications, high-performance desktop agents, and high-precision telemetry flows. If you have a complex problem, I'm interested.
 </p>
 
 <p align="center">
